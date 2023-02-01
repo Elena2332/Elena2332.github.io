@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Proyecto ev1 de DIIW. (ROLILLO)"/>
+    <meta name="keywords" content="HTML5, CSS3"/>
+    <meta name="author" content="Elena Sanz">
+    <link rel="icon" type="image/x-icon" href="img/logo.png"/>
+    <link rel="stylesheet" href="css/estilos.css"/>
+    <title>Sugerencias</title>
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="plantillas.html"><img src="img/logo.png" alt="ROLILLO"></a></div>
+        <nav id="menuGeneral" class="menu">
+            <ul>
+                <li><a href="proceso.html">Sala casual</a></li>
+                <li><a href="plantillas.html">Juegos y plantillas</a></li>
+                <li><a href="sugerencias.html">Sugerencias</a></li>
+                <li><a href="proceso.html">Donaciones</a></li>
+            </ul> 
+        </div>
+        <div id="btnMenu"><img src="img/menui.png" alt="MENU"/></div>
+    </header>    
+    <main>
+        <form class="sugerencias" enctype="multipart/form-data" method="POST" action="">
+            
+            <label>Nombre:</label>
+            <input type="text" name="inpNom" value="Vecinillo"/>
+        
+            <label>Email:</label> 
+            <input type="email" name="inpEmail" placeholder="ejemplo@gmail.com"/>
+        
+            <label>Tipo:</label>
+            <select>
+                <option value="cambio">Modificacion</option>
+                <option value="aniadir">Falta algo</option>
+                <option value="Bug">Reportar error</option>
+                <option value="otro">Otro</option>
+            </select>
+        
+            <label>Sugerencia:</label>
+            <textarea></textarea>
+            
+            <div class="envio">
+                <button type="button">ENVIAR</button>
+                <img src="img/avioncillo.png" class="avion"/>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="iconofooter">
+            <a href="https://discord.com/">    <img src="img/discord.svg" alt="discord"></a>
+            <a href="https://twitter.com/?lang=es">   <img src="img/twitter.png" alt="twitter"></a>
+            <a href="https://www.youtube.com/">   <img src="img/youtube.png" alt="youtube"></a>
+            <a href="https://www.instagram.com/">   <img src="img/Instagram-logo.png" alt="instagram"></a>
+            <a href="https://es-es.facebook.com/">   <img src="img/facebook.png" alt="facebook"></a>
+            <a href="https://www.pinterest.es/">   <img src="img/pinterest.png" alt="pinterest"></a>
+            <a href="https://github.com/">     <img src="img/github.png" alt="github"></a>
+            <a href="https://www.paypal.com/es/signin">   <img src="img/paypal.png" alt="paypal"></a>
+        </div>
+    </footer>
+</body>
+<script src="./app.js"></script>
+</html>
