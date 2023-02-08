@@ -1,12 +1,23 @@
-let divMenuGeneral, btnMenu;
+let divMenuGeneral;
 let desplegado;
+let difOld = 1, yOld = 0;
 
 window.onload
 {
     divMenuGeneral = document.getElementById("menuGeneral");
-    btnMenu = document.getElementById("btnMenu");
-    btnMenu.addEventListener("click",gestionarMenu);
     desplegado = false;
+}
+
+window.onscroll = function() {
+    let yAux = window.scrollY;   // y actual
+    
+    // si la diferencia entre la posicion actual y la anterior es mayor a 100
+    let dif = Math.round(yAux-yOld);    // 0  cuando cambia de sentido
+    console.log(dif)
+    
+    yOld = yAux;
+    // document.getElementById('y').innerText = y;
+    // console.log('Old:'+yOld+'   New:'+yNew);
 }
 
 function gestionarMenu()

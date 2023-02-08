@@ -18,7 +18,7 @@ body
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -54,7 +54,6 @@ header
     justify-content: space-between;
 
     padding: 0 10%;
-    background-image: linear-gradient( var(--marron) 1%, var(--gris) 99%);
 }
 .logo 
 {
@@ -161,13 +160,13 @@ footer
     width: 100%;
     height: 100%;
     height: fit-content;
-    background-image: linear-gradient( var(--gris) 1%, var(--marron) 99%);
+    background-image: linear-gradient( var(--marron) 1%, var(--gris) 99%);
 }
 .iconofooter
 {
     width: 70%;
     height: fit-content;
-    margin: 40px auto 20px auto;
+    margin: 20px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -178,19 +177,11 @@ footer
 }
 
 
-/*** INDEX ***/
-.inicio
-{
-    width: 100%;
-}
-
 
 /*** SUGERENCIAS ***/
 .sugerencias
 {
     width: 85%;
-    height: 100vh;
-      
     margin: auto;
     
     display: grid;
@@ -255,7 +246,6 @@ input:focus, textarea:focus, select:focus
 /*** PLANTILLAS ***/
 main[class="plantillas"]
 {
-      
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -350,7 +340,6 @@ main[class="plantillas"]
 /*** DETALLES ***/
 main[class="detalles"]
 {
-      
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -422,9 +411,7 @@ main[class="detalles"]
 /*** PROCESO ***/
 .proceso 
 {
-    height: 70vh;  
     width: 100%;
-    height: 100vh;
     justify-content: center;
     padding: 30px auto;
 }
