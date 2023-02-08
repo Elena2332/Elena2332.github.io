@@ -27,6 +27,8 @@ body
 
     background-color: var(--gris);   
     color: var(--arena);
+
+    font-family: 'Verdana';
 }
 
 a
