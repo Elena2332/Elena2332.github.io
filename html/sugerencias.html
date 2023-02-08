@@ -26,26 +26,26 @@
     <main>
         <form class="sugerencias" enctype="multipart/form-data" method="POST" action="">
             
-            <label>Nombre:</label>
-            <input type="text" name="inpNom" value="Vecinillo"/>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre" name="inpNom" value="Vecinillo"/>
         
-            <label>Email:</label> 
-            <input type="email" name="inpEmail" placeholder="ejemplo@gmail.com"/>
+            <label for="Email">Email:</label> 
+            <input type="email" id="Email" name="inpEmail" placeholder="ejemplo@gmail.com"/>
         
-            <label>Tipo:</label>
-            <select>
+            <label for="Tipo">Tipo:</label>
+            <select id="Tipo">
                 <option value="cambio">Modificacion</option>
                 <option value="aniadir">Falta algo</option>
                 <option value="Bug">Reportar error</option>
                 <option value="otro">Otro</option>
             </select>
         
-            <label>Sugerencia:</label>
-            <textarea></textarea>
+            <label for="Sugerencia">Sugerencia:</label>
+            <textarea id="Sugerencia" ></textarea>
             
             <div class="envio">
                 <button type="button">ENVIAR</button>
-                <img src="../img/avioncillo.png" class="avion"/>
+                <img src="../img/avioncillo.png" alt="mensajeEnviado" class="avion"/>
             </div>
         </form>
     </main>
