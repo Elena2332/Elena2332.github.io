@@ -1,0 +1,8 @@
+Estos son los cambios realizados después de la entrega del proyecto en la 1ª Evaluación y antes del comienzo de la parte de Accesibilidad del proyecto.
+
+- index.html: para poder emplear github.io es necesario un fichero index.html por lo que plantillas.html se ha renombrado a index.html y el resto de .html se han añadido a la carpeta html
+menú en pantalla pequeña: se ha reestructurado el menú de manera que no hay necesidad de emplear un botón para que sea visible. 
+
+- diseño footer: se han invertido los colores del gradient para mejorar la visibilidad y estética
+
+- diseño header: se ha cambiado el background para mejorar la visibilidad y estética
