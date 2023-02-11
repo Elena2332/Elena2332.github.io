@@ -33,7 +33,7 @@ body
 
 a
 {
-    /* text-decoration: none; */
+    text-decoration: none;
     /* color: var(--arena); */
     color: var(--arena);
     transition: text-shadow 0.5s;
@@ -42,7 +42,7 @@ a
 
 a:hover 
 {
-    text-shadow: 2px 2px 2px grey;
+    text-shadow: 2px 2px 2px grey, 1px, 1px, 3px var(--azulOscuro);
 }
 
 
