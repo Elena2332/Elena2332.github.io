@@ -34,14 +34,15 @@ body
 a
 {
     text-decoration: none;
-    color: var(--arena);
+    /* color: var(--arena); */
+    color: var(--azulOscuro);
     transition: text-shadow 0.5s;
     font-family: Tahoma;
 }
 
 a:hover 
 {
-    text-shadow: 2px 2px 4px grey;
+    text-shadow: 2px 2px 2px grey;
 }
 
 
